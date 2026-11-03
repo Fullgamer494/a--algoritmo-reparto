@@ -1,0 +1,141 @@
+{
+  "name": "escenario_03_prioridades_promesas_6_paquetes",
+  "start_location": "D0",
+  "start_time": "08:00",
+  "alpha": 2.0,
+  "priority_weights": {
+    "low": 1,
+    "medium": 2,
+    "high": 3
+  },
+  "locations": [
+    "D0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+  ],
+  "travel_times": {
+    "D0": {
+      "D0": 0,
+      "L1": 8,
+      "L2": 10,
+      "L3": 22,
+      "L4": 12,
+      "L5": 14,
+      "L6": 25
+    },
+    "L1": {
+      "D0": 8,
+      "L1": 0,
+      "L2": 7,
+      "L3": 18,
+      "L4": 9,
+      "L5": 11,
+      "L6": 20
+    },
+    "L2": {
+      "D0": 10,
+      "L1": 7,
+      "L2": 0,
+      "L3": 16,
+      "L4": 8,
+      "L5": 10,
+      "L6": 18
+    },
+    "L3": {
+      "D0": 22,
+      "L1": 18,
+      "L2": 16,
+      "L3": 0,
+      "L4": 14,
+      "L5": 12,
+      "L6": 8
+    },
+    "L4": {
+      "D0": 12,
+      "L1": 9,
+      "L2": 8,
+      "L3": 14,
+      "L4": 0,
+      "L5": 6,
+      "L6": 15
+    },
+    "L5": {
+      "D0": 14,
+      "L1": 11,
+      "L2": 10,
+      "L3": 12,
+      "L4": 6,
+      "L5": 0,
+      "L6": 12
+    },
+    "L6": {
+      "D0": 25,
+      "L1": 20,
+      "L2": 18,
+      "L3": 8,
+      "L4": 15,
+      "L5": 12,
+      "L6": 0
+    }
+  },
+  "packages": [
+    {
+      "id": "P1",
+      "destination": "L1",
+      "window_start": "08:00",
+      "window_end": "10:30",
+      "promised_time": "09:30",
+      "priority": "low",
+      "service_time": 5
+    },
+    {
+      "id": "P2",
+      "destination": "L2",
+      "window_start": "08:00",
+      "window_end": "10:30",
+      "promised_time": "09:30",
+      "priority": "low",
+      "service_time": 5
+    },
+    {
+      "id": "P3",
+      "destination": "L3",
+      "window_start": "08:15",
+      "window_end": "10:00",
+      "promised_time": "08:35",
+      "priority": "high",
+      "service_time": 5
+    },
+    {
+      "id": "P4",
+      "destination": "L4",
+      "window_start": "08:00",
+      "window_end": "11:00",
+      "promised_time": "09:45",
+      "priority": "medium",
+      "service_time": 5
+    },
+    {
+      "id": "P5",
+      "destination": "L5",
+      "window_start": "08:00",
+      "window_end": "11:00",
+      "promised_time": "09:50",
+      "priority": "medium",
+      "service_time": 5
+    },
+    {
+      "id": "P6",
+      "destination": "L6",
+      "window_start": "08:20",
+      "window_end": "10:15",
+      "promised_time": "08:50",
+      "priority": "high",
+      "service_time": 5
+    }
+  ]
+}

@@ -1,0 +1,5542 @@
+[
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00113574,
+      "median_seconds": 0.00112,
+      "min_seconds": 0.0010128,
+      "max_seconds": 0.0013532,
+      "stdev_seconds": 9.850139536518703e-05
+    },
+    "search_metrics": {
+      "states_generated": 132,
+      "states_expanded": 55,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 69
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00135281,
+      "median_seconds": 0.0013362,
+      "min_seconds": 0.0013178,
+      "max_seconds": 0.0014451,
+      "stdev_seconds": 4.0665285495671135e-05
+    },
+    "search_metrics": {
+      "states_generated": 161,
+      "states_expanded": 77,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 13,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 73
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P4",
+      "P3",
+      "P1",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 64,
+      "total_travel_time": 37,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 64.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 9.998e-05,
+      "median_seconds": 9.97e-05,
+      "min_seconds": 9.74e-05,
+      "max_seconds": 0.0001045,
+      "stdev_seconds": 2.190281564852642e-06
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 15,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00399893,
+      "median_seconds": 0.0039493,
+      "min_seconds": 0.0037758,
+      "max_seconds": 0.0043807,
+      "stdev_seconds": 0.00019803779689746097
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 120,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00121279,
+      "median_seconds": 0.00122165,
+      "min_seconds": 0.0011615,
+      "max_seconds": 0.0012518,
+      "stdev_seconds": 3.070488379539792e-05
+    },
+    "search_metrics": {
+      "states_generated": 128,
+      "states_expanded": 53,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 8,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 68
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00142129,
+      "median_seconds": 0.00140025,
+      "min_seconds": 0.0013421,
+      "max_seconds": 0.0015994,
+      "stdev_seconds": 7.745182660495776e-05
+    },
+    "search_metrics": {
+      "states_generated": 151,
+      "states_expanded": 71,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 11,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 70
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P4",
+      "P3",
+      "P1",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 64,
+      "total_travel_time": 37,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 64.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00010455000000000001,
+      "median_seconds": 0.0001033,
+      "min_seconds": 0.0001028,
+      "max_seconds": 0.0001089,
+      "stdev_seconds": 2.322953101358508e-06
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 15,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00401872,
+      "median_seconds": 0.0039274,
+      "min_seconds": 0.0037715,
+      "max_seconds": 0.0045792,
+      "stdev_seconds": 0.00027707747733160206
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 120,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00110025,
+      "median_seconds": 0.001069,
+      "min_seconds": 0.0009535,
+      "max_seconds": 0.001456,
+      "stdev_seconds": 0.0001424106444991619
+    },
+    "search_metrics": {
+      "states_generated": 123,
+      "states_expanded": 51,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 7,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 66
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00130309,
+      "median_seconds": 0.00121855,
+      "min_seconds": 0.0010835,
+      "max_seconds": 0.0018391,
+      "stdev_seconds": 0.00022897051945125547
+    },
+    "search_metrics": {
+      "states_generated": 149,
+      "states_expanded": 70,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 10,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 70
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P4",
+      "P3",
+      "P1",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 64,
+      "total_travel_time": 37,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 64.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 9.474e-05,
+      "median_seconds": 9.12e-05,
+      "min_seconds": 8.46e-05,
+      "max_seconds": 0.0001227,
+      "stdev_seconds": 1.1611220626809417e-05
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 15,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00430648,
+      "median_seconds": 0.0043025500000000005,
+      "min_seconds": 0.0038102,
+      "max_seconds": 0.0047916,
+      "stdev_seconds": 0.00034901593978244353
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 120,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00107494,
+      "median_seconds": 0.0010328,
+      "min_seconds": 0.0009582,
+      "max_seconds": 0.0013242,
+      "stdev_seconds": 0.00012544207339556284
+    },
+    "search_metrics": {
+      "states_generated": 123,
+      "states_expanded": 51,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 7,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 66
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0012616,
+      "median_seconds": 0.001216,
+      "min_seconds": 0.0011521,
+      "max_seconds": 0.0014704,
+      "stdev_seconds": 0.00011947025664248914
+    },
+    "search_metrics": {
+      "states_generated": 142,
+      "states_expanded": 67,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 67
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P4",
+      "P3",
+      "P1",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 64,
+      "total_travel_time": 37,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 64.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 9.296e-05,
+      "median_seconds": 9.305e-05,
+      "min_seconds": 9.13e-05,
+      "max_seconds": 9.57e-05,
+      "stdev_seconds": 1.3937957765277748e-06
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 15,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_01_base_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P2",
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 61,
+      "total_travel_time": 34,
+      "total_wait_time": 2,
+      "total_service_time": 25,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 5,
+      "expected_packages": 5,
+      "on_promise_count": 5,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 5,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 61.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00394721,
+      "median_seconds": 0.0039036,
+      "min_seconds": 0.0036296,
+      "max_seconds": 0.0044749,
+      "stdev_seconds": 0.00022695387416829884
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 120,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00271524,
+      "median_seconds": 0.00262065,
+      "min_seconds": 0.0024234,
+      "max_seconds": 0.0030971,
+      "stdev_seconds": 0.00024376692511039684
+    },
+    "search_metrics": {
+      "states_generated": 307,
+      "states_expanded": 106,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 63,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 139
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00311054,
+      "median_seconds": 0.0030585,
+      "min_seconds": 0.002743,
+      "max_seconds": 0.0038021,
+      "stdev_seconds": 0.0002705072157591693
+    },
+    "search_metrics": {
+      "states_generated": 363,
+      "states_expanded": 141,
+      "infeasible_transitions_discarded": 2,
+      "dominated_or_repeated_discarded": 71,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 152
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 118,
+      "total_travel_time": 50,
+      "total_wait_time": 38,
+      "total_service_time": 30,
+      "total_tardiness": 3,
+      "weighted_tardiness": 6.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 118.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00012183,
+      "median_seconds": 0.00012175,
+      "min_seconds": 0.0001188,
+      "max_seconds": 0.0001275,
+      "stdev_seconds": 2.2992994102068987e-06
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P1",
+      "P2",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 75,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.022209879999999998,
+      "median_seconds": 0.0217305,
+      "min_seconds": 0.0207305,
+      "max_seconds": 0.0240552,
+      "stdev_seconds": 0.001199125734117245
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 304,
+      "infeasible_permutations": 416
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0021194,
+      "median_seconds": 0.0021072,
+      "min_seconds": 0.0020681,
+      "max_seconds": 0.0022289,
+      "stdev_seconds": 5.079711277884467e-05
+    },
+    "search_metrics": {
+      "states_generated": 258,
+      "states_expanded": 87,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 57,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 115
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00226254,
+      "median_seconds": 0.0022497999999999997,
+      "min_seconds": 0.0021727,
+      "max_seconds": 0.0024274,
+      "stdev_seconds": 7.685672384378615e-05
+    },
+    "search_metrics": {
+      "states_generated": 279,
+      "states_expanded": 99,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 64,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 118
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 118,
+      "total_travel_time": 50,
+      "total_wait_time": 38,
+      "total_service_time": 30,
+      "total_tardiness": 3,
+      "weighted_tardiness": 6.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 3.0,
+      "objective_cost": 121.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00011775,
+      "median_seconds": 0.00011635000000000001,
+      "min_seconds": 0.000112,
+      "max_seconds": 0.0001284,
+      "stdev_seconds": 4.743709284703036e-06
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P1",
+      "P2",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 75,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02175407,
+      "median_seconds": 0.02139885,
+      "min_seconds": 0.0201397,
+      "max_seconds": 0.0251558,
+      "stdev_seconds": 0.0016958369975717986
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 304,
+      "infeasible_permutations": 416
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0020137799999999997,
+      "median_seconds": 0.0020012,
+      "min_seconds": 0.0017368,
+      "max_seconds": 0.0022361,
+      "stdev_seconds": 0.00018560969682523468
+    },
+    "search_metrics": {
+      "states_generated": 231,
+      "states_expanded": 76,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 53,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 103
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00219834,
+      "median_seconds": 0.0021844,
+      "min_seconds": 0.0021041,
+      "max_seconds": 0.0024068,
+      "stdev_seconds": 8.602989402914942e-05
+    },
+    "search_metrics": {
+      "states_generated": 260,
+      "states_expanded": 90,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 55,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 117
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 118,
+      "total_travel_time": 50,
+      "total_wait_time": 38,
+      "total_service_time": 30,
+      "total_tardiness": 3,
+      "weighted_tardiness": 6.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 6.0,
+      "objective_cost": 124.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00012891,
+      "median_seconds": 0.0001239,
+      "min_seconds": 0.0001225,
+      "max_seconds": 0.000162,
+      "stdev_seconds": 1.210146455783119e-05
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P1",
+      "P2",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 75,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02103124,
+      "median_seconds": 0.02063515,
+      "min_seconds": 0.0199975,
+      "max_seconds": 0.0228119,
+      "stdev_seconds": 0.0008902705259264357
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 304,
+      "infeasible_permutations": 416
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0017111700000000001,
+      "median_seconds": 0.0017055500000000001,
+      "min_seconds": 0.0015896,
+      "max_seconds": 0.0018541,
+      "stdev_seconds": 8.570381879213757e-05
+    },
+    "search_metrics": {
+      "states_generated": 217,
+      "states_expanded": 71,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 48,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 99
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P5",
+      "P1",
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 70,
+      "total_wait_time": 5,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0019283899999999999,
+      "median_seconds": 0.001878,
+      "min_seconds": 0.0017793,
+      "max_seconds": 0.0021393,
+      "stdev_seconds": 0.00014054887999079415
+    },
+    "search_metrics": {
+      "states_generated": 246,
+      "states_expanded": 85,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 49,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 113
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 118,
+      "total_travel_time": 50,
+      "total_wait_time": 38,
+      "total_service_time": 30,
+      "total_tardiness": 3,
+      "weighted_tardiness": 6.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 12.0,
+      "objective_cost": 130.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00012232,
+      "median_seconds": 0.0001205,
+      "min_seconds": 0.0001162,
+      "max_seconds": 0.0001431,
+      "stdev_seconds": 7.543915870863532e-06
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_02_con_esperas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P4",
+      "P1",
+      "P2",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 105,
+      "total_travel_time": 75,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 105.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02357968,
+      "median_seconds": 0.0233149,
+      "min_seconds": 0.0198875,
+      "max_seconds": 0.0323588,
+      "stdev_seconds": 0.00348226669627701
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 304,
+      "infeasible_permutations": 416
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P6",
+      "P3"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 79.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00741249,
+      "median_seconds": 0.0074211,
+      "min_seconds": 0.0071982,
+      "max_seconds": 0.0077397,
+      "stdev_seconds": 0.00015014767878473672
+    },
+    "search_metrics": {
+      "states_generated": 764,
+      "states_expanded": 289,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 80,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 396
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P6",
+      "P3"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 79.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01012938,
+      "median_seconds": 0.01005,
+      "min_seconds": 0.0098614,
+      "max_seconds": 0.0106457,
+      "stdev_seconds": 0.0002447209240475088
+    },
+    "search_metrics": {
+      "states_generated": 1053,
+      "states_expanded": 464,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 160,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 434
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 79.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00014727999999999999,
+      "median_seconds": 0.00014145,
+      "min_seconds": 0.0001383,
+      "max_seconds": 0.0001759,
+      "stdev_seconds": 1.2248065606907526e-05
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 79.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02869991,
+      "median_seconds": 0.02909885,
+      "min_seconds": 0.0268523,
+      "max_seconds": 0.030146,
+      "stdev_seconds": 0.0012838439420999213
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 720,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 1.5,
+      "objective_cost": 91.5
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00752975,
+      "median_seconds": 0.00749855,
+      "min_seconds": 0.0069622,
+      "max_seconds": 0.0079463,
+      "stdev_seconds": 0.0002991529569746332
+    },
+    "search_metrics": {
+      "states_generated": 777,
+      "states_expanded": 300,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 84,
+      "stale_queue_entries": 4,
+      "reopenings": 0,
+      "max_queue_size": 391
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 1.5,
+      "objective_cost": 91.5
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00858234,
+      "median_seconds": 0.00855195,
+      "min_seconds": 0.0074851,
+      "max_seconds": 0.0094602,
+      "stdev_seconds": 0.0007433160225189104
+    },
+    "search_metrics": {
+      "states_generated": 947,
+      "states_expanded": 427,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 133,
+      "stale_queue_entries": 15,
+      "reopenings": 0,
+      "max_queue_size": 398
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 90.0,
+      "objective_cost": 169.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00012316,
+      "median_seconds": 0.00012185,
+      "min_seconds": 0.0001181,
+      "max_seconds": 0.0001308,
+      "stdev_seconds": 4.027737164546201e-06
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 1.5,
+      "objective_cost": 91.5
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02860095,
+      "median_seconds": 0.027944499999999997,
+      "min_seconds": 0.0265172,
+      "max_seconds": 0.0305387,
+      "stdev_seconds": 0.0015507005486768448
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 720,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 3.0,
+      "objective_cost": 93.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00667275,
+      "median_seconds": 0.0066828,
+      "min_seconds": 0.0060702,
+      "max_seconds": 0.0075233,
+      "stdev_seconds": 0.00045911982277687237
+    },
+    "search_metrics": {
+      "states_generated": 723,
+      "states_expanded": 280,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 78,
+      "stale_queue_entries": 4,
+      "reopenings": 0,
+      "max_queue_size": 364
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 3.0,
+      "objective_cost": 93.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00719287,
+      "median_seconds": 0.00696365,
+      "min_seconds": 0.0067913,
+      "max_seconds": 0.0085756,
+      "stdev_seconds": 0.0005444224871876209
+    },
+    "search_metrics": {
+      "states_generated": 834,
+      "states_expanded": 376,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 111,
+      "stale_queue_entries": 9,
+      "reopenings": 0,
+      "max_queue_size": 364
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 180.0,
+      "objective_cost": 259.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00012887,
+      "median_seconds": 0.00012800000000000002,
+      "min_seconds": 0.0001244,
+      "max_seconds": 0.0001337,
+      "stdev_seconds": 3.2961425265840038e-06
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 3.0,
+      "objective_cost": 93.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0284495,
+      "median_seconds": 0.028750249999999998,
+      "min_seconds": 0.0260945,
+      "max_seconds": 0.0309712,
+      "stdev_seconds": 0.0017913842171162872
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 720,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 6.0,
+      "objective_cost": 96.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00768766,
+      "median_seconds": 0.00691835,
+      "min_seconds": 0.0066603,
+      "max_seconds": 0.0118626,
+      "stdev_seconds": 0.0018009360949856666
+    },
+    "search_metrics": {
+      "states_generated": 692,
+      "states_expanded": 275,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 87,
+      "stale_queue_entries": 1,
+      "reopenings": 0,
+      "max_queue_size": 334
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 6.0,
+      "objective_cost": 96.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00749607,
+      "median_seconds": 0.00747445,
+      "min_seconds": 0.0072929,
+      "max_seconds": 0.0077154,
+      "stdev_seconds": 0.00015299468436662917
+    },
+    "search_metrics": {
+      "states_generated": 784,
+      "states_expanded": 359,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 120,
+      "stale_queue_entries": 3,
+      "reopenings": 0,
+      "max_queue_size": 335
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P3",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 49,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 60,
+      "weighted_tardiness": 180.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 4,
+      "on_promise_percentage": 66.67,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 360.0,
+      "objective_cost": 439.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00014582,
+      "median_seconds": 0.00014595,
+      "min_seconds": 0.0001421,
+      "max_seconds": 0.0001513,
+      "stdev_seconds": 2.700123453967735e-06
+    },
+    "search_metrics": {
+      "steps_executed": 6,
+      "feasible_transitions_evaluated": 21,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_03_prioridades_promesas_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P3",
+      "P6",
+      "P5",
+      "P4",
+      "P2"
+    ],
+    "quality": {
+      "total_elapsed_time": 90,
+      "total_travel_time": 60,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 1,
+      "weighted_tardiness": 3.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 6.0,
+      "objective_cost": 96.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02989275,
+      "median_seconds": 0.0298502,
+      "min_seconds": 0.0260082,
+      "max_seconds": 0.0320473,
+      "stdev_seconds": 0.0017487040180595975
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 720,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01622476,
+      "median_seconds": 0.0163463,
+      "min_seconds": 0.0148572,
+      "max_seconds": 0.0170002,
+      "stdev_seconds": 0.0006507186167785755
+    },
+    "search_metrics": {
+      "states_generated": 1789,
+      "states_expanded": 528,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 95,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 1167
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0281021,
+      "median_seconds": 0.0278056,
+      "min_seconds": 0.0262519,
+      "max_seconds": 0.031001,
+      "stdev_seconds": 0.0016668328643801628
+    },
+    "search_metrics": {
+      "states_generated": 2904,
+      "states_expanded": 993,
+      "infeasible_transitions_discarded": 37,
+      "dominated_or_repeated_discarded": 287,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 1625
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P7",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 107,
+      "total_travel_time": 72,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 73,
+      "weighted_tardiness": 208.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 5,
+      "on_promise_percentage": 71.43,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 107.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00016654000000000001,
+      "median_seconds": 0.00016125,
+      "min_seconds": 0.0001507,
+      "max_seconds": 0.0002088,
+      "stdev_seconds": 1.6874319739375176e-05
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.19473605,
+      "median_seconds": 0.19341235,
+      "min_seconds": 0.1851317,
+      "max_seconds": 0.209054,
+      "stdev_seconds": 0.00895733369892452
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 1996,
+      "infeasible_permutations": 3044
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01198865,
+      "median_seconds": 0.011839349999999998,
+      "min_seconds": 0.0112328,
+      "max_seconds": 0.0131151,
+      "stdev_seconds": 0.0006504564333348288
+    },
+    "search_metrics": {
+      "states_generated": 1255,
+      "states_expanded": 360,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 30,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 866
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01689241,
+      "median_seconds": 0.01680655,
+      "min_seconds": 0.0153619,
+      "max_seconds": 0.0197452,
+      "stdev_seconds": 0.0013070583787438282
+    },
+    "search_metrics": {
+      "states_generated": 1821,
+      "states_expanded": 597,
+      "infeasible_transitions_discarded": 31,
+      "dominated_or_repeated_discarded": 67,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 1158
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P7",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 107,
+      "total_travel_time": 72,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 73,
+      "weighted_tardiness": 208.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 5,
+      "on_promise_percentage": 71.43,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 104.0,
+      "objective_cost": 211.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00016545,
+      "median_seconds": 0.00016505,
+      "min_seconds": 0.0001618,
+      "max_seconds": 0.0001703,
+      "stdev_seconds": 2.619266224642991e-06
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.19740933,
+      "median_seconds": 0.1986453,
+      "min_seconds": 0.1848966,
+      "max_seconds": 0.2098813,
+      "stdev_seconds": 0.009517867253522012
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 1996,
+      "infeasible_permutations": 3044
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01115417,
+      "median_seconds": 0.0111768,
+      "min_seconds": 0.0103369,
+      "max_seconds": 0.0118604,
+      "stdev_seconds": 0.0005362660099656184
+    },
+    "search_metrics": {
+      "states_generated": 1189,
+      "states_expanded": 342,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 24,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 824
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01364997,
+      "median_seconds": 0.01360335,
+      "min_seconds": 0.0126771,
+      "max_seconds": 0.014672,
+      "stdev_seconds": 0.0006588091682051114
+    },
+    "search_metrics": {
+      "states_generated": 1626,
+      "states_expanded": 534,
+      "infeasible_transitions_discarded": 29,
+      "dominated_or_repeated_discarded": 43,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 1050
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P7",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 107,
+      "total_travel_time": 72,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 73,
+      "weighted_tardiness": 208.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 5,
+      "on_promise_percentage": 71.43,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 208.0,
+      "objective_cost": 315.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00016227,
+      "median_seconds": 0.00016195,
+      "min_seconds": 0.0001594,
+      "max_seconds": 0.0001672,
+      "stdev_seconds": 2.553015646032917e-06
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.20656738,
+      "median_seconds": 0.2050937,
+      "min_seconds": 0.1929669,
+      "max_seconds": 0.2378261,
+      "stdev_seconds": 0.012690667606272295
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 1996,
+      "infeasible_permutations": 3044
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01120639,
+      "median_seconds": 0.01124845,
+      "min_seconds": 0.0104345,
+      "max_seconds": 0.0120257,
+      "stdev_seconds": 0.0005880701988519551
+    },
+    "search_metrics": {
+      "states_generated": 1146,
+      "states_expanded": 330,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 23,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 794
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0142056,
+      "median_seconds": 0.01415545,
+      "min_seconds": 0.0131544,
+      "max_seconds": 0.0155398,
+      "stdev_seconds": 0.0006944892559764092
+    },
+    "search_metrics": {
+      "states_generated": 1519,
+      "states_expanded": 499,
+      "infeasible_transitions_discarded": 29,
+      "dominated_or_repeated_discarded": 35,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 986
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P7",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 107,
+      "total_travel_time": 72,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 73,
+      "weighted_tardiness": 208.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 5,
+      "on_promise_percentage": 71.43,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 416.0,
+      "objective_cost": 523.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00019147,
+      "median_seconds": 0.00018869999999999998,
+      "min_seconds": 0.0001856,
+      "max_seconds": 0.0002167,
+      "stdev_seconds": 9.180662043423426e-06
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_04_tiempos_asimetricos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P6",
+      "P7",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "quality": {
+      "total_elapsed_time": 98,
+      "total_travel_time": 63,
+      "total_wait_time": 0,
+      "total_service_time": 35,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 98.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.20016898,
+      "median_seconds": 0.1991808,
+      "min_seconds": 0.18881,
+      "max_seconds": 0.2156112,
+      "stdev_seconds": 0.008257005917374384
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 1996,
+      "infeasible_permutations": 3044
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.025138630000000002,
+      "median_seconds": 0.025128150000000002,
+      "min_seconds": 0.0219697,
+      "max_seconds": 0.0285366,
+      "stdev_seconds": 0.002856700783946404
+    },
+    "search_metrics": {
+      "states_generated": 2540,
+      "states_expanded": 824,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 677,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 1040
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02797919,
+      "median_seconds": 0.02734185,
+      "min_seconds": 0.0265141,
+      "max_seconds": 0.0298875,
+      "stdev_seconds": 0.0014061090802083762
+    },
+    "search_metrics": {
+      "states_generated": 3102,
+      "states_expanded": 1080,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 940,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 1087
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 38,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 9,
+      "weighted_tardiness": 27.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 6,
+      "on_promise_percentage": 85.71,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 79.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00017663,
+      "median_seconds": 0.0001757,
+      "min_seconds": 0.0001714,
+      "max_seconds": 0.0001889,
+      "stdev_seconds": 4.9562642741842975e-06
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.22872443,
+      "median_seconds": 0.2277129,
+      "min_seconds": 0.2183092,
+      "max_seconds": 0.2393394,
+      "stdev_seconds": 0.0064694097958606514
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 5040,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01983197,
+      "median_seconds": 0.019823649999999998,
+      "min_seconds": 0.019576,
+      "max_seconds": 0.0200982,
+      "stdev_seconds": 0.00014624153574746733
+    },
+    "search_metrics": {
+      "states_generated": 1989,
+      "states_expanded": 630,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 400,
+      "stale_queue_entries": 5,
+      "reopenings": 0,
+      "max_queue_size": 955
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02126648,
+      "median_seconds": 0.0215568,
+      "min_seconds": 0.0182917,
+      "max_seconds": 0.0230273,
+      "stdev_seconds": 0.0014536928682191126
+    },
+    "search_metrics": {
+      "states_generated": 2306,
+      "states_expanded": 773,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 496,
+      "stale_queue_entries": 11,
+      "reopenings": 0,
+      "max_queue_size": 1027
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 38,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 9,
+      "weighted_tardiness": 27.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 6,
+      "on_promise_percentage": 85.71,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 13.5,
+      "objective_cost": 92.5
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00016863000000000002,
+      "median_seconds": 0.00016810000000000002,
+      "min_seconds": 0.0001651,
+      "max_seconds": 0.0001732,
+      "stdev_seconds": 2.6297655155292217e-06
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.22925915,
+      "median_seconds": 0.22984955,
+      "min_seconds": 0.2198726,
+      "max_seconds": 0.2415706,
+      "stdev_seconds": 0.007628410758947256
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 5040,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01700904,
+      "median_seconds": 0.017149249999999998,
+      "min_seconds": 0.016067,
+      "max_seconds": 0.0182211,
+      "stdev_seconds": 0.0007164694227793523
+    },
+    "search_metrics": {
+      "states_generated": 1939,
+      "states_expanded": 613,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 385,
+      "stale_queue_entries": 3,
+      "reopenings": 0,
+      "max_queue_size": 940
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01854632,
+      "median_seconds": 0.01854155,
+      "min_seconds": 0.0179215,
+      "max_seconds": 0.0194614,
+      "stdev_seconds": 0.0004277238771814254
+    },
+    "search_metrics": {
+      "states_generated": 2218,
+      "states_expanded": 741,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 470,
+      "stale_queue_entries": 4,
+      "reopenings": 0,
+      "max_queue_size": 1004
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 38,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 9,
+      "weighted_tardiness": 27.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 6,
+      "on_promise_percentage": 85.71,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 27.0,
+      "objective_cost": 106.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00021968,
+      "median_seconds": 0.00020135,
+      "min_seconds": 0.0001587,
+      "max_seconds": 0.0003693,
+      "stdev_seconds": 6.875219269230617e-05
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.22626359000000001,
+      "median_seconds": 0.22575515000000002,
+      "min_seconds": 0.2179059,
+      "max_seconds": 0.2368556,
+      "stdev_seconds": 0.006297246384192236
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 5040,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.01642542,
+      "median_seconds": 0.01618995,
+      "min_seconds": 0.0156222,
+      "max_seconds": 0.017937,
+      "stdev_seconds": 0.0007818062644358327
+    },
+    "search_metrics": {
+      "states_generated": 1890,
+      "states_expanded": 597,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 376,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 918
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.018716240000000002,
+      "median_seconds": 0.0182584,
+      "min_seconds": 0.0175351,
+      "max_seconds": 0.0208712,
+      "stdev_seconds": 0.0011210607706790723
+    },
+    "search_metrics": {
+      "states_generated": 2159,
+      "states_expanded": 721,
+      "infeasible_transitions_discarded": 0,
+      "dominated_or_repeated_discarded": 455,
+      "stale_queue_entries": 2,
+      "reopenings": 0,
+      "max_queue_size": 982
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "quality": {
+      "total_elapsed_time": 79,
+      "total_travel_time": 38,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 9,
+      "weighted_tardiness": 27.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 6,
+      "on_promise_percentage": 85.71,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 54.0,
+      "objective_cost": 133.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00016297,
+      "median_seconds": 0.00016219999999999999,
+      "min_seconds": 0.0001603,
+      "max_seconds": 0.0001682,
+      "stdev_seconds": 2.652064185581573e-06
+    },
+    "search_metrics": {
+      "steps_executed": 7,
+      "feasible_transitions_evaluated": 28,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_05_destinos_compartidos_7_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P7",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "quality": {
+      "total_elapsed_time": 77,
+      "total_travel_time": 36,
+      "total_wait_time": 0,
+      "total_service_time": 41,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 7,
+      "expected_packages": 7,
+      "on_promise_count": 7,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 7,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 77.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.23570074000000002,
+      "median_seconds": 0.23923650000000002,
+      "min_seconds": 0.2152783,
+      "max_seconds": 0.2442167,
+      "stdev_seconds": 0.008657021939340469
+    },
+    "search_metrics": {
+      "permutations_evaluated": 5040,
+      "feasible_permutations": 5040,
+      "infeasible_permutations": 0
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0074100599999999996,
+      "median_seconds": 0.0073807000000000005,
+      "min_seconds": 0.0070129,
+      "max_seconds": 0.0079341,
+      "stdev_seconds": 0.0002574602113811849
+    },
+    "search_metrics": {
+      "states_generated": 940,
+      "states_expanded": 460,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 365,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 201
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00823761,
+      "median_seconds": 0.00815575,
+      "min_seconds": 0.0079713,
+      "max_seconds": 0.0087804,
+      "stdev_seconds": 0.0002551293634827459
+    },
+    "search_metrics": {
+      "states_generated": 1018,
+      "states_expanded": 538,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 418,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 207
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00010648,
+      "median_seconds": 0.0001043,
+      "min_seconds": 0.0001032,
+      "max_seconds": 0.000116,
+      "stdev_seconds": 4.372337284946502e-06
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 19,
+      "infeasible_transitions_discarded": 2,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P6",
+      "P5",
+      "P4"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 23,
+      "weighted_tardiness": 69.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 5,
+      "on_promise_percentage": 83.33,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02722629,
+      "median_seconds": 0.02797115,
+      "min_seconds": 0.0241007,
+      "max_seconds": 0.0283015,
+      "stdev_seconds": 0.0014303270880388786
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 462,
+      "infeasible_permutations": 258
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00669419,
+      "median_seconds": 0.00679675,
+      "min_seconds": 0.005728,
+      "max_seconds": 0.0071109,
+      "stdev_seconds": 0.0004249017780617069
+    },
+    "search_metrics": {
+      "states_generated": 722,
+      "states_expanded": 338,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 229,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 175
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00674474,
+      "median_seconds": 0.0066316,
+      "min_seconds": 0.006326,
+      "max_seconds": 0.0073446,
+      "stdev_seconds": 0.00037847245078076686
+    },
+    "search_metrics": {
+      "states_generated": 796,
+      "states_expanded": 387,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 253,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 185
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00012509,
+      "median_seconds": 0.0001159,
+      "min_seconds": 0.0001109,
+      "max_seconds": 0.0001844,
+      "stdev_seconds": 2.2876598911940077e-05
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 19,
+      "infeasible_transitions_discarded": 2,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.025563119999999998,
+      "median_seconds": 0.02558595,
+      "min_seconds": 0.0240281,
+      "max_seconds": 0.0270708,
+      "stdev_seconds": 0.0008980709670052679
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 462,
+      "infeasible_permutations": 258
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00505243,
+      "median_seconds": 0.00498585,
+      "min_seconds": 0.0046338,
+      "max_seconds": 0.0057411,
+      "stdev_seconds": 0.0003171297808293772
+    },
+    "search_metrics": {
+      "states_generated": 606,
+      "states_expanded": 285,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 176,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 162
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00617648,
+      "median_seconds": 0.00605995,
+      "min_seconds": 0.0056465,
+      "max_seconds": 0.006875,
+      "stdev_seconds": 0.00041580236972228366
+    },
+    "search_metrics": {
+      "states_generated": 701,
+      "states_expanded": 348,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 214,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 162
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00013427,
+      "median_seconds": 0.00011300000000000001,
+      "min_seconds": 0.0001111,
+      "max_seconds": 0.0003181,
+      "stdev_seconds": 6.46578181231353e-05
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 19,
+      "infeasible_transitions_discarded": 2,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.024147830000000002,
+      "median_seconds": 0.0239042,
+      "min_seconds": 0.0234853,
+      "max_seconds": 0.0254114,
+      "stdev_seconds": 0.0006533427517178269
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 462,
+      "infeasible_permutations": 258
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00485535,
+      "median_seconds": 0.00490075,
+      "min_seconds": 0.0044206,
+      "max_seconds": 0.0053007,
+      "stdev_seconds": 0.00029162586476511303
+    },
+    "search_metrics": {
+      "states_generated": 546,
+      "states_expanded": 265,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 166,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 132
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00480545,
+      "median_seconds": 0.00476745,
+      "min_seconds": 0.0043195,
+      "max_seconds": 0.0056427,
+      "stdev_seconds": 0.00041262450309640535
+    },
+    "search_metrics": {
+      "states_generated": 577,
+      "states_expanded": 296,
+      "infeasible_transitions_discarded": 87,
+      "dominated_or_repeated_discarded": 186,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 135
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00011456,
+      "median_seconds": 0.00011445,
+      "min_seconds": 0.0001089,
+      "max_seconds": 0.0001197,
+      "stdev_seconds": 3.095588258581341e-06
+    },
+    "search_metrics": {
+      "steps_executed": 5,
+      "feasible_transitions_evaluated": 19,
+      "infeasible_transitions_discarded": 2,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_06_greedy_suboptimo_6_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P6",
+      "P5",
+      "P4",
+      "P3",
+      "P2",
+      "P1"
+    ],
+    "quality": {
+      "total_elapsed_time": 84,
+      "total_travel_time": 54,
+      "total_wait_time": 0,
+      "total_service_time": 30,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 6,
+      "expected_packages": 6,
+      "on_promise_count": 6,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 6,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 84.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.02484361,
+      "median_seconds": 0.0246107,
+      "min_seconds": 0.0234523,
+      "max_seconds": 0.0271026,
+      "stdev_seconds": 0.0011860267042618489
+    },
+    "search_metrics": {
+      "permutations_evaluated": 720,
+      "feasible_permutations": 462,
+      "infeasible_permutations": 258
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00285977,
+      "median_seconds": 0.0028342000000000003,
+      "min_seconds": 0.0026766,
+      "max_seconds": 0.0030691,
+      "stdev_seconds": 0.00012377613349197103
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00292885,
+      "median_seconds": 0.00297195,
+      "min_seconds": 0.0025628,
+      "max_seconds": 0.0034355,
+      "stdev_seconds": 0.0002494032667076445
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00022608,
+      "median_seconds": 0.0002216,
+      "min_seconds": 0.0002144,
+      "max_seconds": 0.0002672,
+      "stdev_seconds": 1.5092956414610533e-05
+    },
+    "search_metrics": {
+      "steps_executed": 8,
+      "feasible_transitions_evaluated": 36,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.47956929,
+      "median_seconds": 0.47910755,
+      "min_seconds": 0.4647844,
+      "max_seconds": 0.4943873,
+      "stdev_seconds": 0.008052867057755812
+    },
+    "search_metrics": {
+      "permutations_evaluated": 40320,
+      "feasible_permutations": 1,
+      "infeasible_permutations": 40319
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0030415,
+      "median_seconds": 0.0030174,
+      "min_seconds": 0.0026436,
+      "max_seconds": 0.0034775,
+      "stdev_seconds": 0.00025086172375323514
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00292996,
+      "median_seconds": 0.0028938,
+      "min_seconds": 0.0026832,
+      "max_seconds": 0.0032811,
+      "stdev_seconds": 0.00020132326796031848
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00023899000000000001,
+      "median_seconds": 0.00022455,
+      "min_seconds": 0.0002177,
+      "max_seconds": 0.0003171,
+      "stdev_seconds": 3.020601301433578e-05
+    },
+    "search_metrics": {
+      "steps_executed": 8,
+      "feasible_transitions_evaluated": 36,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 0.5,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.46989201,
+      "median_seconds": 0.4694139,
+      "min_seconds": 0.4550852,
+      "max_seconds": 0.4859066,
+      "stdev_seconds": 0.00877355794930933
+    },
+    "search_metrics": {
+      "permutations_evaluated": 40320,
+      "feasible_permutations": 1,
+      "infeasible_permutations": 40319
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00290923,
+      "median_seconds": 0.0028501000000000004,
+      "min_seconds": 0.0026432,
+      "max_seconds": 0.0033524,
+      "stdev_seconds": 0.00024271425380475707
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00275732,
+      "median_seconds": 0.002742,
+      "min_seconds": 0.0025852,
+      "max_seconds": 0.0029541,
+      "stdev_seconds": 9.863572487806945e-05
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0001996,
+      "median_seconds": 0.00019745,
+      "min_seconds": 0.0001928,
+      "max_seconds": 0.0002165,
+      "stdev_seconds": 7.313002119512892e-06
+    },
+    "search_metrics": {
+      "steps_executed": 8,
+      "feasible_transitions_evaluated": 36,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 1.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.47858827000000004,
+      "median_seconds": 0.47672915000000005,
+      "min_seconds": 0.4591908,
+      "max_seconds": 0.4975024,
+      "stdev_seconds": 0.012193300283721387
+    },
+    "search_metrics": {
+      "permutations_evaluated": 40320,
+      "feasible_permutations": 1,
+      "infeasible_permutations": 40319
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0029179,
+      "median_seconds": 0.0029169,
+      "min_seconds": 0.0026043,
+      "max_seconds": 0.0032105,
+      "stdev_seconds": 0.0001615667663846745
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00297632,
+      "median_seconds": 0.00291835,
+      "min_seconds": 0.0025442,
+      "max_seconds": 0.0035626,
+      "stdev_seconds": 0.0003161668223510423
+    },
+    "search_metrics": {
+      "states_generated": 255,
+      "states_expanded": 128,
+      "infeasible_transitions_discarded": 321,
+      "dominated_or_repeated_discarded": 0,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 128
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00023743,
+      "median_seconds": 0.0002122,
+      "min_seconds": 0.0002048,
+      "max_seconds": 0.0003543,
+      "stdev_seconds": 5.717932901553381e-05
+    },
+    "search_metrics": {
+      "steps_executed": 8,
+      "feasible_transitions_evaluated": 36,
+      "infeasible_transitions_discarded": 0,
+      "completed_route": true,
+      "termination_reason": "Ruta completada"
+    }
+  },
+  {
+    "scenario_name": "escenario_07_ventanas_restrictivas_8_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": true,
+    "package_order": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "quality": {
+      "total_elapsed_time": 140,
+      "total_travel_time": 66,
+      "total_wait_time": 34,
+      "total_service_time": 40,
+      "total_tardiness": 0,
+      "weighted_tardiness": 0.0,
+      "delivery_count": 8,
+      "expected_packages": 8,
+      "on_promise_count": 8,
+      "on_promise_percentage": 100.0,
+      "window_compliance_count": 8,
+      "window_compliance_percentage": 100.0,
+      "alpha": 2.0,
+      "total_penalty": 0.0,
+      "objective_cost": 140.0
+    },
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.47808965999999997,
+      "median_seconds": 0.47897219999999996,
+      "min_seconds": 0.4635437,
+      "max_seconds": 0.4910286,
+      "stdev_seconds": 0.009140843585820976
+    },
+    "search_metrics": {
+      "permutations_evaluated": 40320,
+      "feasible_permutations": 1,
+      "infeasible_permutations": 40319
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00048083,
+      "median_seconds": 0.00047214999999999996,
+      "min_seconds": 0.0004543,
+      "max_seconds": 0.0005935,
+      "stdev_seconds": 4.101327833763108e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00041851000000000003,
+      "median_seconds": 0.000418,
+      "min_seconds": 0.0004055,
+      "max_seconds": 0.0004313,
+      "stdev_seconds": 9.736009905956804e-06
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 8.41e-05,
+      "median_seconds": 6.935e-05,
+      "min_seconds": 6.6e-05,
+      "max_seconds": 0.0001441,
+      "stdev_seconds": 2.790607261670637e-05
+    },
+    "search_metrics": {
+      "steps_executed": 4,
+      "feasible_transitions_evaluated": 11,
+      "infeasible_transitions_discarded": 4,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0016744,
+      "median_seconds": 0.00168185,
+      "min_seconds": 0.0014642,
+      "max_seconds": 0.0019185,
+      "stdev_seconds": 0.00015057083973259158
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 0,
+      "infeasible_permutations": 120
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 0.5,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00047914,
+      "median_seconds": 0.00046929999999999997,
+      "min_seconds": 0.0004527,
+      "max_seconds": 0.0005578,
+      "stdev_seconds": 3.2991790224572874e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 0.5,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00043057,
+      "median_seconds": 0.0004188,
+      "min_seconds": 0.000409,
+      "max_seconds": 0.0004831,
+      "stdev_seconds": 2.5050085384640455e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 0.5,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 7.84e-05,
+      "median_seconds": 7.245e-05,
+      "min_seconds": 7.04e-05,
+      "max_seconds": 0.0001246,
+      "stdev_seconds": 1.643296145623856e-05
+    },
+    "search_metrics": {
+      "steps_executed": 4,
+      "feasible_transitions_evaluated": 11,
+      "infeasible_transitions_discarded": 4,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 0.5,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00158909,
+      "median_seconds": 0.0015850999999999999,
+      "min_seconds": 0.0014769,
+      "max_seconds": 0.00166,
+      "stdev_seconds": 5.1818474826391175e-05
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 0,
+      "infeasible_permutations": 120
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 1.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00043248,
+      "median_seconds": 0.00042605,
+      "min_seconds": 0.0004129,
+      "max_seconds": 0.0004623,
+      "stdev_seconds": 1.640371231696587e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 1.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00042536,
+      "median_seconds": 0.00039685,
+      "min_seconds": 0.0003783,
+      "max_seconds": 0.0005571,
+      "stdev_seconds": 5.88650849164615e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 1.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 6.603e-05,
+      "median_seconds": 6.585e-05,
+      "min_seconds": 6.45e-05,
+      "max_seconds": 6.78e-05,
+      "stdev_seconds": 9.019115502334154e-07
+    },
+    "search_metrics": {
+      "steps_executed": 4,
+      "feasible_transitions_evaluated": 11,
+      "infeasible_transitions_discarded": 4,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 1.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0016213,
+      "median_seconds": 0.00157005,
+      "min_seconds": 0.0014873,
+      "max_seconds": 0.0019,
+      "stdev_seconds": 0.00014088229917992614
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 0,
+      "infeasible_permutations": 120
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "A*",
+    "alpha": 2.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00042637999999999997,
+      "median_seconds": 0.00041155,
+      "min_seconds": 0.0003987,
+      "max_seconds": 0.0005191,
+      "stdev_seconds": 3.770039198145764e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Dijkstra",
+    "alpha": 2.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.00039993,
+      "median_seconds": 0.00037635,
+      "min_seconds": 0.00037,
+      "max_seconds": 0.0005221,
+      "stdev_seconds": 5.153521018574474e-05
+    },
+    "search_metrics": {
+      "states_generated": 47,
+      "states_expanded": 39,
+      "infeasible_transitions_discarded": 50,
+      "dominated_or_repeated_discarded": 9,
+      "stale_queue_entries": 0,
+      "reopenings": 0,
+      "max_queue_size": 18
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Greedy",
+    "alpha": 2.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 6.411e-05,
+      "median_seconds": 6.324999999999999e-05,
+      "min_seconds": 6.25e-05,
+      "max_seconds": 7.01e-05,
+      "stdev_seconds": 2.3736750690297375e-06
+    },
+    "search_metrics": {
+      "steps_executed": 4,
+      "feasible_transitions_evaluated": 11,
+      "infeasible_transitions_discarded": 4,
+      "completed_route": false,
+      "termination_reason": "Sin sucesores factibles (callejón sin salida)"
+    }
+  },
+  {
+    "scenario_name": "escenario_08_sin_solucion_5_paquetes",
+    "algorithm": "Exhaustive",
+    "alpha": 2.0,
+    "solved": false,
+    "package_order": [],
+    "quality": null,
+    "timing": {
+      "runs": 10,
+      "mean_seconds": 0.0016436,
+      "median_seconds": 0.00161695,
+      "min_seconds": 0.0014055,
+      "max_seconds": 0.0019033,
+      "stdev_seconds": 0.00014180619795262043
+    },
+    "search_metrics": {
+      "permutations_evaluated": 120,
+      "feasible_permutations": 0,
+      "infeasible_permutations": 120
+    }
+  }
+]

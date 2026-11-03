@@ -1,0 +1,116 @@
+{
+  "name": "escenario_01_base_5_paquetes",
+  "start_location": "D0",
+  "start_time": "08:00",
+  "alpha": 1.0,
+  "priority_weights": {
+    "low": 1,
+    "medium": 2,
+    "high": 3
+  },
+  "locations": [
+    "D0",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "travel_times": {
+    "D0": {
+      "D0": 0,
+      "L1": 10,
+      "L2": 8,
+      "L3": 20,
+      "L4": 12,
+      "L5": 15
+    },
+    "L1": {
+      "D0": 10,
+      "L1": 0,
+      "L2": 6,
+      "L3": 7,
+      "L4": 9,
+      "L5": 11
+    },
+    "L2": {
+      "D0": 8,
+      "L1": 6,
+      "L2": 0,
+      "L3": 9,
+      "L4": 5,
+      "L5": 10
+    },
+    "L3": {
+      "D0": 20,
+      "L1": 7,
+      "L2": 9,
+      "L3": 0,
+      "L4": 6,
+      "L5": 8
+    },
+    "L4": {
+      "D0": 12,
+      "L1": 9,
+      "L2": 5,
+      "L3": 6,
+      "L4": 0,
+      "L5": 7
+    },
+    "L5": {
+      "D0": 15,
+      "L1": 11,
+      "L2": 10,
+      "L3": 8,
+      "L4": 7,
+      "L5": 0
+    }
+  },
+  "packages": [
+    {
+      "id": "P1",
+      "destination": "L1",
+      "window_start": "08:20",
+      "window_end": "10:00",
+      "promised_time": "09:00",
+      "priority": "high",
+      "service_time": 5
+    },
+    {
+      "id": "P2",
+      "destination": "L2",
+      "window_start": "08:10",
+      "window_end": "10:00",
+      "promised_time": "08:45",
+      "priority": "medium",
+      "service_time": 5
+    },
+    {
+      "id": "P3",
+      "destination": "L3",
+      "window_start": "08:30",
+      "window_end": "11:00",
+      "promised_time": "09:30",
+      "priority": "low",
+      "service_time": 5
+    },
+    {
+      "id": "P4",
+      "destination": "L4",
+      "window_start": "08:00",
+      "window_end": "10:30",
+      "promised_time": "09:15",
+      "priority": "medium",
+      "service_time": 5
+    },
+    {
+      "id": "P5",
+      "destination": "L5",
+      "window_start": "08:45",
+      "window_end": "11:30",
+      "promised_time": "10:00",
+      "priority": "high",
+      "service_time": 5
+    }
+  ]
+}
